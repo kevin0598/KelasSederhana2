@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/Select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT FILE"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:theme="@style/buttonstyle1"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:text="Jenis"
+        android:id="@+id/view2"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <Spinner
+        android:id="@+id/bidang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    </Spinner>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/textnamasubjek"
+        android:hint="Nama Subjek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Fileid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:text="File" />
+
+    <Button
+        android:id="@+id/Upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD FILE"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"
+        android:theme="@style/buttonstyle1"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
+
+</FrameLayout>

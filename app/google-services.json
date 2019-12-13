@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "819163140080",
+    "firebase_url": "https://kelas-sederhana.firebaseio.com",
+    "project_id": "kelas-sederhana",
+    "storage_bucket": "kelas-sederhana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819163140080:android:3778e5c35a71f267571735",
+        "android_client_info": {
+          "package_name": "com.example.kelassederhana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819163140080-bjd3sdn5hhv306bfkej9et4l0qomhirt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kelassederhana",
+            "certificate_hash": "bb9317e6d4692832457ff0225b6bb6f09a76dfa7"
+          }
+        },
+        {
+          "client_id": "819163140080-i1o80k83bi8j3c80ttdlefgnclb9mfee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhvzxrvu5tburoEB5Tc3uBmDQaZqDODZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819163140080-i1o80k83bi8j3c80ttdlefgnclb9mfee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
